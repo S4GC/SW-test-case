@@ -9,7 +9,7 @@ Because all three projects revolve around interactions with the Solar Wind, this
 ## 📂 Repository Structure
 
 ```text
-SW-suite/
+SW-test-case/
 ├── README.md                   # General overview and repository summary
 ├── pyproject.toml / uv.lock    # Python environment (managed via uv)
 ├── Equations/                  # Theoretical framework and models
@@ -48,8 +48,8 @@ Each project folder contains its own standalone `test_case.py` (or simulation se
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/solar-wind-simulation-suite.git
-cd solar-wind-simulation-suite
+git clone https://github.com/S4GC/SW-test-case.git
+cd SW-test-case
 
 # Sync Python dependencies using uv
 uv sync
