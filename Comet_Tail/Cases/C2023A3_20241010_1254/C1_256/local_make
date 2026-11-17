@@ -1,0 +1,5 @@
+
+# GLM divergence cleaning module
+VPATH += $(SRC)/MHD/GLM
+OBJ += glm.o
+

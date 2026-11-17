@@ -1,0 +1,49 @@
+#define  PHYSICS                        MHD
+#define  DIMENSIONS                     2
+#define  GEOMETRY                       CARTESIAN
+#define  BODY_FORCE                     NO
+#define  COOLING                        NO
+#define  RECONSTRUCTION                 LINEAR
+#define  TIME_STEPPING                  RK2
+#define  NTRACER                        0
+#define  PARTICLES                      NO
+#define  USER_DEF_PARAMETERS            1
+#define ASSIGN_VECTOR_POTENTIAL NO
+
+/* -- physics dependent declarations -- */
+
+#define  EOS                            IDEAL
+#define  ENTROPY_SWITCH                 NO
+#define  DIVB_CONTROL                   DIV_CLEANING
+#define  BACKGROUND_FIELD               NO
+#define  AMBIPOLAR_DIFFUSION            NO
+#define  RESISTIVITY                    NO
+#define  HALL_MHD                       NO
+#define  THERMAL_CONDUCTION             NO
+#define  VISCOSITY                      NO
+#define  RADIATION                      NO
+#define  ROTATING_FRAME                 NO
+
+/* -- user-defined parameters (labels) -- */
+
+#define  SCRH                           0
+
+/* [Beg] user-defined constants (do not change this line) */
+
+#define  LIMITER                        MC_LIM
+
+/* Cometary source parameters - dimensionless test */
+
+#define COMET_X0       0.0
+#define COMET_Y0       0.0
+
+#define COMET_QM0      0.0
+
+#define COMET_RSRC     1.0
+#define COMET_RSOFT    0.25
+
+#define COMET_UN       1.0e-2
+
+#define COMET_EINT     0.0
+
+/* [End] user-defined constants (do not change this line) */

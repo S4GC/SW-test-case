@@ -1,0 +1,36 @@
+DATA ADQUISITION
+
+    data_YBCO.xlsx is obtained from https://doi.org/10.1109/TASC.2016.2628700
+
+
+DATA DESCRIPTION
+
+    Sample description: Ceraco M-Type YBCO 2G HTS film (330 nm thick) on 2 inch r-cut sapphire, laser patterned to a 0.5 mm x 5 mm bridge.
+    Internal sample designation: CRC009. Manufacturer sample designation: X070721A.
+    Data collection dates: 22 May - 11 June 2023. Sample manufacture date: 7 July 2021. 
+
+    The data files comprise columnar data of the following quantities:
+
+    Temperature (K) The stable sample temperature at the start of the measurement.
+    Field (T)       The magnitude of the applied magnetic field at the sample.
+    Angle (�)       The angle of the sample normal with respect to the applied field direction.
+    Ic/w (A/cm)	The critical current of the sample, scaled up from the sample width to a full cm width.
+    Ic (A)          The critical current of the sample, obtained from a power law fit to the measured IV curve.
+    n               The n-value, or exponent of the power law fit to the measured IV curve.
+    V0 (�V)         An arbitrary offset voltage originating in the voltage amplifier.
+    V1 (�V/A)       A linear voltage component providing an improved fit to the experimental data.
+    Hall field (T)  The magnitude of the applied magnetic field at the sample determined from orthogonal Hall sensors.
+    Hall angle (�)  The angle of the sample with respect to the applied field determined from orthogonal Hall sensors.
+    Set temperature (K)	The setpoint temperature of the measurement, useful for sorting/filtering the data.
+    Set field (T)	The setpoint field of the measurement, useful for sorting/filtering the data.
+    Set angle (�)	The setpoint angle of the measurement, useful for sorting/filtering the data.
+
+    The Field entry provides the best estimate of the field magnitude, while the Hall angle provides the best estimate of the field direction, allowing for flux pinning and Lorentz force stresses on the sample rod.
+
+    The underlying current-voltage (IV) characteristics have been fit according to the equation:
+
+    V = V0 + V1.I + Vc.(I/Ic)^n
+
+    where the voltage criterion Vc = 0.5 uV for a voltage tap spacing of 5 mm.
+
+    Data contained in the summary data files is duplicated to provide the most convenient access. The data is provided in xlsx (Excel 2007) format to allow for multiple pages of data within a single file.

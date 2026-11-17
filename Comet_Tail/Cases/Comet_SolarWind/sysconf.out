@@ -1,0 +1,12 @@
+USER           = santy
+WORKING_DIR    = /home/santy/simulaciones/Comet_SolarWind
+SYSTEM_NAME    = Linux
+NODE_NAME      = new-horizons
+RELEASE        = 7.3.4-1-cachyos
+ARCH           = x86_64
+BYTE_ORDER     = little
+VERSION        = #1 SMP PREEMPT_DYNAMIC Thu, 12 Nov 2026 08:16:20 +0000
+PLUTO_DIR      = /home/santy/src/PLUTO
+PLUTO_VERSION  = 2026)"
+C_COMPILER     = gcc
+MPI_C_COMPILER = mpicc
