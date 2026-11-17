@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+Comet_Tail/Cases/Comet_NoSource_1024/*.dbl
+Comet_Tail/Cases/Comet_SolarWind_1024/*.dbl
