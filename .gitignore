@@ -11,3 +11,12 @@ wheels/
 
 Comet_Tail/Cases/Comet_NoSource_1024/*.dbl
 Comet_Tail/Cases/Comet_SolarWind_1024/*.dbl
+
+Equations/main.aux
+Equations/main.fdb_latexmk
+Equations/main.fls 
+Equations/main.log 
+Equations/main.out 
+Equations/main.synctex.gz 
+
+Equations/main.toc

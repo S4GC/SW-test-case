@@ -8,17 +8,24 @@ Because all three projects revolve around interactions with the Solar Wind, this
 
 ## 📂 Repository Structure
 
-```text
+```text 
 SW-test-case/
-├── README.md                   # General overview and repository summary
-├── pyproject.toml / uv.lock    # Python environment (managed via uv)
-├── Equations/                  # Theoretical framework and models
-├── EM_Shield/                  # Active Electromagnetic Shielding System
-│   ├── Main.ipynb              # Main File
-|   ├── data_YBCO.xlsx          # YBCO Experimental Data
-│   └── data_YBCO.xlsx          # YBCO Experimental Data Description
-└── Comet_Tail/                 # Coronographs Imagery Based SSSB Study​
-```
+├── .gitignore              # Git exclusion rules
+├── .python-version         # Python version specification
+├── pyproject.toml  uv.lock # Python environment (managed via uv)
+├── README.md               # General overview and repository summary
+├── Equations/              # Theoretical framework and mathematical models
+│   ├── main.tex              # LaTeX source file
+│   └── main.pdf              # Compiled PDF
+├── EM_Shield/              # Active Electromagnetic Shielding System study
+│   ├── Main.ipynb            # Main Jupyter notebook for shield analysis
+│   ├── data_YBCO.xlsx        # Experimental dataset for YBCO HTS
+│   └── about_data.txt        # Metadata of the YBCO dataset
+└── Comet_Tail/             # Comet tail study
+    ├── Main.ipynb            # Main notebook for comet analysis
+    ├── Cases/                # Test cases and results
+    └── PLUTO-comet/        # Numerical MHD integrations for comet
+``` 
 
 ---
 
@@ -32,7 +39,7 @@ SW-test-case/
 
 * **Validation:** To validate particle deflection efficiently, we exploited the quadrupole symmetry of the pumpkin configuration, simulating only one-quarter of the cross-section. Using the Lorentz force equations, we propagated test particles initialized with free-stream parallel velocities derived from solar wind conditions and verified that their trajectories do not penetrate the protected inner volume.
 
-### 3. Comet Detection via Coronagraphs & Space Weather (`Comet_Tail/`)
+### 2. Comet Detection via Coronagraphs & Space Weather (`Comet_Tail/`)
 
 * **Focus:** Multi-spacecraft detection, 3D localization of sungrazing comets, and their future use as natural space weather probes.
 
